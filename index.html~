@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Proyecto Nivel Dos</title>
+    <link href="https://www.holbertonschool.com/level2/school.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <p>hola</p>
+    <div>
+      <img src="http://54.157.233.88/img/ubuntu.png" width="170" alt="Ubuntu Logo">
+      <h1>Cubo de Atajos</h1>
+      <h3>La terminal para seres humanos</h3>
+    </div>
+
+    <div>
+      <p><i>Archivos y Directorios</i></p>
+      <ul>
+	<li><strong>cd</strong> directory ▶ go to directory</li>
+	<li><strong>cd ..</strong> ▶ go to previous directory</li>
+	<li><strong>ls</strong> ▶ list files in work directory</li>
+	<li><strong>ls -a</strong> list all files (including hidden files)</li>
+	<li><strong>cp -r</strong> directory dest ▶ copy directory to dest</li>
+	<li><strong>mv</strong> source dest ▶ move/rename file/directory to dest</li>
+	<li><strong>mkdir</strong> new-directory ▶ create new directory</li>
+	<li><strong>rm</strong> file ▶ remove file*</li>
+	<li><strong>rm -r</strong> folder ▶ remove folder recursively*</li>
+	<li><strong>ln -s</strong> file link ▶ create symbolic link of file</li>
+	<li><strong>mount -t</strong> type device mount-point ▶ mount device</li>
+	<li><strong>mount -o loop</strong> iso mount-point ▶ mount iso image<br><strong>/home/</strong>
+	  ▶ user ▶ your working directory
+	  <strong>/etc</strong> ▶ global system settings</li></ul>
+      <blockquote><strong>See man</strong> <i>command</i> for more options</blockquote><br>
+    </div>
+
+    <div>
+      <p><i>Redes</i></p>
+      <ul>
+	<li><strong>ifconfig</strong> ▶ show network information</li>
+	<li><strong>iwconfig</strong> ▶ show wireless information</li>
+	<li><strong>sudo iwlist scan</strong> ▶ scan for wireless networks</li>
+	<li><strong>ifup</strong> interface ▶ bring interface online</li>
+	<li><strong>ifdown</strong> interface ▶ disable interface</li>
+	<li><strong>sudo /etc/init.d/networking restart</strong> ▶ reset network<br>
+	  for manual configurations</li>
+	<li><strong>ufw enable</strong> ▶ turn on the firewall</li>
+	<li><strong>ufw disable</strong> ▶ turn off the firewall</li>
+	<li><strong>ufw default allow</strong> ▶ allow all connections</li>
+	<li><strong>ufw default deny</strong> ▶ drop all connections</li>
+	<li><strong>ufw status</strong> current status and rules</li>
+	<li><strong>ufw allow/deny</strong> port ▶ allow/deny traffic on port</li>
+	<li><strong>ufw deny from</strong> ip ▶ block ip adress</li></ul>
+      <blockquote><strong>See man</strong> <i>command</i> for more options</blockquote><br>
+    </div>
+
+    <div>
+      <p><i>Privilegios</i></p>
+      <ul>
+	<li><strong>sudo</strong> command ▶ run command as root</li>
+	<li><strong>gksudo</strong> command ▶ visual sudo dialog</li>
+	<li><strong>sudo</strong> -s ▶ open a root shell</li>
+	<li><strong>sudo</strong> -k ▶ forget sudo passwords</li>
+	<li><strong>sudo</strong> visudo ▶ edit /etc/sudoers</li>
+	<li><strong>passwd</strong> ▶ change your password</li>
+	<li><strong>gksudo</strong> nautilius ▶root file manager</li>
+	<li><strong>chown</strong> user:group file ▶ change owner:group of file</li>
+	<li><strong>chmod</strong> MODE file ▶ change file permissions<br>MODE:<br>
+	  n1(user) n2(group) n3(other)<br>4(read) 2(write) 1(execute)<br>e.g.: 755
+	  read-write-execute<br>for owner, read-execute for<br>group and others.</li>
+      </ul>
+      <blockquote><strong>See man</strong> <i>command</i> for more options</blockquote><br>
+    </div>
+
+    <div>
+      <p><i>Systema y monitoreo</i></p>
+      <ul>
+	<li><strong>uname -r</strong> ▶ get kerner version</li>
+	<li><strong>uname -a</strong> ▶ get all kernel information</li>
+	<li><strong>start</strong> service ▶ star job service (Upstart)</li>
+	<li><strong>stop</strong> service ▶ stop job service (Upstart)</li>
+	<li><strong>/etc/init.d/service start</strong> ▶ start service (SysV)</li>
+	<li><strong>/etc/init.d/service stop</strong> ▶ stop service (SysV)</li>
+	<li><strong>sudo /etc/init.d/gdm restar</strong> ▶ restart x and return<br>to login</li>
+	<li><strong>Ctrl+Alt+Bksp</strong> ▶ restart x display if frozen</li>
+	<li><strong>Ctrl+Alt+FN</strong> ▶ switch to tty N Ctrl+Alt+F7</li>
+	<li><strong>Ctrl+Alt+F7</strong> ▶ switch back to x display</li>
+	<li><strong>Recovery</strong> ▶ Type the phrase "REISUB" while holding<br>
+	  down Alt and SysRq (PrintScrn) with about 1 second<br>between each letter</li>
+	<li><strong>sudo dexconf</strong> ▶ reset xorg.conf</li>
+      </ul>
+      <blockquote><strong>See man</strong> <i>command</i> for more options</blockquote><br>
+    </div>
+
+    <div>
+      <p><i>Manejador de paquetes </i></p>
+      <ul>
+	<li><strong>aptitude</strong> ▶ update ▶ refresh available updates</li>
+	<li><strong>aptitude</strong> install pkg ▶ install pkg</li>
+	<li><strong>aptitude</strong> safe-upgrade ▶ upgrade all packages</li>
+	<li><strong>aptitude</strong> full-upgrade ▶ upgrade Ubuntu version</li>
+	<li><strong>aptitude</strong> show pkg ▶ show information about package</li>
+	<li><strong>aptitude</strong> purge pkg ▶ uninstall pkg</li>
+	<li><strong>aptitude</strong> purge pkg ▶ uninstall pkg and its settings</li>
+	<li><strong>aptitude</strong> ▶ aptitude interface (ncurses) </li>
+	<li><strong>aptitude</strong> hold pkg ▶ not update this package</li>
+	<li><strong>dpkg -i</strong> pkg.deb ▶ install file pkg.deb<br><strong>/etc/apt/sources.list</strong>
+	  ▶ APT repository list (file)</li>
+	<li><strong>ubuntu-restricted-extras</strong> ▶ non-free (pkg)</li>
+	<li><strong>build-essential</strong> ▶ used to compile programs (pkg)</li>
+      </ul>
+      <blockquote><strong>See man</strong> <i>command</i> for more options</blockquote><br>
+    </div>
+    <h2>Diseño Original</h2>
+    <img src="http://54.157.233.88/img/cubo-trucos-ubuntu1.png" width="700" alt="Ubuntu cheat cube">
+  </body>
+  </html>
