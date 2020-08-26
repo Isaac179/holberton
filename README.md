@@ -1,1 +1,1 @@
-# Holberton-Shcool
+# holberton
