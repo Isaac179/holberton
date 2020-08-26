@@ -9,7 +9,7 @@ body{
   min-height: 96%;
   background: #fff;
   padding: 10px;
-  border: 7px solid #2C3E50;
+  border: 7px solid #2c3e502b;
   margin: 20px;
 
   display:-webkit-flex;
@@ -23,12 +23,12 @@ body{
 }
 
 .elemento{
-  color:#fff;
+  color:#444444b5;
   margin:5px;
   width:550px;
   height: 550px;
-  background: #E67E22;
-  text-align: center;
+  background: #dadada8f;
+  text-align: left;
 }
 
 body {
@@ -38,6 +38,19 @@ body {
 p,h1, h2, h3, h4, h5, h6, header {
 	font-family: 'Yeseva One', sans-serif;
 }
+
+blockquote{
+  background: #ff0000bd;
+  text-align: center;
+  color: white;
+  font-size:19px;
+  padding: 5px;
+}
+
+i.fa-linux{
+  font-size: 30px;
+}
+
 
 /*Ejemplos:
 flex-direction:row;
