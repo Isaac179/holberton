@@ -51,6 +51,9 @@ i.fa-linux{
   font-size: 30px;
 }
 
+.alinea {
+  text-align: center;
+}
 
 /*Ejemplos:
 flex-direction:row;
