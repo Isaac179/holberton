@@ -3,40 +3,45 @@
 
 body{
   background:#E9E9E9;
+  display:flex;
+  flex-direction: column;
+  font-family: 'Josefin Sans', serif;
+	color: rgba(0, 0, 0, 0.8);
 }
-.contenedor{
-  width:96%;
-  min-height: 96%;
-  background: #fff;
-  padding: 10px;
-  border: 7px solid #2c3e502b;
-  margin: 20px;
 
+main{
+  display:flex;
+  flex-direction: row;
+  flex: auto;
+}
+
+header{
+  background-color: #199bbf;
   display:-webkit-flex;
   display:-ms-flexbox;
   display:flex;
 
-  flex-wrap: wrap;
-  justify-content:center;
-  align-content:center;
-  align-items:center;
+  justify-content: space-between;
 }
 
-.elemento{
-  color:#444444b5;
-  margin:5px;
-  width:550px;
-  height: 550px;
-  background: #dadada8f;
-  text-align: left;
+footer{
+  background-color: #0000000d;
 }
 
-body {
-	font-family: 'Josefin Sans', serif;
-	color: rgba(0, 0, 0, 0.8);
+article{
+  flex: 2;
+  overflow-y: auto;
+  background-color: #ffff0014;
 }
+
+aside{
+  flex: 1;
+  overflow-y: auto;
+  background-color: #d5a77c80;
+}
+
 p,h1, h2, h3, h4, h5, h6, header {
-	font-family: 'Yeseva One', sans-serif;
+	font-family: 'Josefin Sans, sans-serif;
 }
 
 blockquote{
@@ -53,6 +58,14 @@ i.fa-linux{
 
 .alinea {
   text-align: center;
+}
+
+ .logo{
+  padding: 23px;
+}
+
+.menu{
+  padding:20px;
 }
 
 /*Ejemplos:
